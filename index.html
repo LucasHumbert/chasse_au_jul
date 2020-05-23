@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8" />
+    <title>La recherche de JuL</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="ressources/logo.jpg" />
+ </head>
+ <body>
+    <h1>Trouvez JuL dans Marseille</h1>
+    
+    <p>Après une course folle dans Marseille avec son fidèle T-MAX, JuL n'a plus de carburant. <br />
+    Il faut le retrouver en évitant les rageux car ces derniers détestent JuL et vous feront perdre du temps !</p><br />
+
+        <table id="indexCouleurs">
+            <tr>
+                <td class="bad"></td>
+                <td class="couleurTexte">Mauvaise case</td>
+                <td class="good"></td>
+                <td class="couleurTexte">Bonne case</td>
+                <td class="ligne"></td>
+                <td class="couleurTexte">Bonne ligne</td>
+                <td class="colonne"></td>
+                <td class="couleurTexte">Bonne colonne</td>
+                <td class="rageux"></td>
+                <td class="couleurTexte">Rageux!</td>
+            </tr>
+        </table>
+
+        <hr>
+        <p>Nombre de minute(s) écoulée(s): <span id="compte">0</span></p>
+            <div id="emplacementTable" class="cadre">
+                Tableau
+            </div>
+            <div id="emplacementCommentaires" class="cadre">
+                JuL n'a plus d'essence dans son T-MAX. Il faut l'aider<br />
+            </div>
+        <hr>
+ </body>
+</html>

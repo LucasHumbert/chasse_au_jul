@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: #E1E1E1;
+}
+
+#fondtable {
+    background: url(ressources/marseille.png); 
+    background-size: cover;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+td {
+    width:45px;
+    height:45px;
+    border: 1px solid black;
+}
+ 
+.cadre {
+    display: inline-block;
+    width: 450px;
+    margin: 1em;
+    font-size: 18px;
+}
+
+.bad {
+    background:rgba(200,0,0,0.8);
+}
+
+.good {
+    background:rgba(6, 180, 0);
+}
+
+.ligne{
+    background: rgb(255, 150, 22, 0.8);
+}
+
+.colonne{
+    background: rgba(0, 63, 197, 0.8);
+}
+
+.rageux{
+    background: rgba(21, 104, 97, 0.9);
+}
+
+#compte{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.image{
+    border-radius: 5px;
+}
+
+#emplacementCommentaires{
+    max-height: 300px;
+    overflow: hidden;
+}
+
+table{
+    margin:auto;
+}
+
+h1{
+    background-color: #CE4F92;
+    box-shadow: 0px 2px 5px #1B1B1B;
+    border-radius: 0 0 5px 5px;
+    padding: 15px 0;
+    color: rgba(255, 238, 0, 0.7);
+    margin-bottom: 2vh;
+}
+
+#indexCouleurs{
+    background-image: linear-gradient(to left, #2980b9, #1abc9c);
+    color: rgba(255, 238, 0);
+    padding: 2vh;
+    margin-bottom: 3vh;
+    border: 1px solid black;
+    border-radius: 0 10px 0 10px;
+}
+
+#indexCouleurs td{
+    padding: 1vh;
+    border-radius: 2px;
+}
+
+.couleurTexte{
+    background-color: #CE4F92;
+}
+
+.decalage{
+    padding-right: 2vh;
+}
+
+p{
+    font-size: 20px;
+    padding-top: 2vh;
+}
+
+button{
+	width: 120px;
+	height: 35px;
+	border-radius: 6px;
+	cursor: pointer;
+	background-image: linear-gradient(to left, #1abc9c, #2980b9, #1abc9c);
+	background-size: 200%;
+	transition: 0.6s;
+	color: #fff;
+	font-size: 15px;
+}
+
+button:hover{
+	background-position: right;
+	color: rgba(255, 238, 0, 0.7);
+}	
