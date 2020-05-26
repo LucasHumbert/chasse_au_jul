@@ -9,14 +9,14 @@ body{
 
     margin:0;
     padding:0;
-    background: url(ressources/fond_game.jpg) no-repeat center fixed; 
+    background: url(../ressources/fond_game.jpg) no-repeat center fixed; 
     -webkit-background-size: cover; 
     background-size: cover;
     color: #fff;
 }
 
 #fondtable {
-    background: url(ressources/marseille.png); 
+    background: url(../ressources/marseille.png); 
     background-size: cover;
     border-width: 1px;
     border-color: black;

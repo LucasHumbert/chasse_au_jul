@@ -1,7 +1,7 @@
 html { 
     margin:0;
     padding:0;
-    background: url(ressources/jul_accueil.jpg) no-repeat center fixed; 
+    background: url(../ressources/jul_accueil.jpg) no-repeat center fixed; 
     -webkit-background-size: cover; 
     background-size: cover;
 }
