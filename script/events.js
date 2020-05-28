@@ -1,5 +1,5 @@
 
-//j'ai essayé d'utiliser la classe mais je n'ai pas réussi
+//j'ai essayé d'utiliser la classe mais je n'y suis pas arrivé
 
 class Events {
 
