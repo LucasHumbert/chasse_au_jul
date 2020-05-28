@@ -4,6 +4,7 @@
     Description	: Script simulant une chasse au trésor avec des évenement placées aléatoirement. Le but est de sauver le trésor (JuL).
 */
 
+
 //initialisation de certaines variables
 let coordonneeX = Math.floor(Math.random() * 8);
 let coordonneeY = Math.floor(Math.random() * 8);                        //tirage aléatoire des coordonnées du trésor
@@ -14,6 +15,8 @@ let tableau = "<table id='fondtable'><tr>";
 let commentaire = "JuL n'a plus d'essence dans son T-MAX. Il faut l'aider<br />";
 let bruitageJul = new Audio('ressources/WESH ALORS.mp3');
 let bruitageRageux = new Audio('ressources/Canard.mp3');                        
+
+
 
 //création des 2 groupes de rageux ayant des coordonnées différentes de celles du trésor
 let coordonneeXRageux1 = 0;
@@ -33,6 +36,8 @@ do {
 } while (coordonneeXRageux2 == coordonneeX && coordonneeYRageux2 == coordonneeY || coordonneeXRageux2 == coordonneeXRageux1 && coordonneeYRageux2 == coordonneeYRageux1);
 let idRageux2 = String(coordonneeXRageux2) + '-' + String(coordonneeYRageux2);
 //console.log("id rageux 2 : " + idRageux2);
+
+
 
 
 //fonction qui renvoit un tableau 2D
@@ -68,6 +73,7 @@ function initTab() {
     tableau = tableau + "</tr></table>"
     document.getElementById("emplacementTable").innerHTML = tableau;
 }
+
 
 //fonction qui récupère l'ID de la case cliquée et traite le résultat
 function choix(id){
@@ -135,6 +141,7 @@ function afficherCompteur(valeur){
     document.getElementById("compte").innerHTML = valeur;
 }
 
+
 //affiche les commentaires
 function afficherCommentaire(message){
 
@@ -142,6 +149,7 @@ function afficherCommentaire(message){
 
     document.getElementById("emplacementCommentaires").innerHTML = commentaire;
 }
+
 
 //affiche la fin du jeu ainsi qu'un bouton qui reload la page pour rejouer
 function afficherVictoire(){
